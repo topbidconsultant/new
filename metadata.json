@@ -1,0 +1,6 @@
+{
+  "name": "TopBid Consultant - GeM & Tender Advisory",
+  "description": "Premier consultancy for GeM Portal Registration, Startup India DPIIT Certification, ISO Standards, OEM Vendor Assessment, and Pan-India E-Tendering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

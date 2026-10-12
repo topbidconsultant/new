@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@keyframes videoMotion {
+  0% { transform: scale(1.05) translate(0%, 0%); }
+  33% { transform: scale(1.15) translate(-1.5%, -1%); }
+  66% { transform: scale(1.2) translate(1%, -1.5%); }
+  100% { transform: scale(1.05) translate(0%, 0%); }
+}
+
+.animate-video-motion {
+  animation: videoMotion 28s ease-in-out infinite alternate;
+}
+
+@keyframes fullPageScroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-full-scroll {
+  display: flex;
+  width: max-content;
+  animation: fullPageScroll 35s linear infinite;
+}
+
+.animate-full-scroll:hover {
+  animation-play-state: paused;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
